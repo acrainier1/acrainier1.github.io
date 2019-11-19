@@ -1,0 +1,229 @@
+/* CSS for resume.html */
+
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    padding: 0px;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* --- FONTS --- */
+.title {
+    font-style: bold;
+    font-size: 15;
+}
+
+/* Name: Alex Canizales */
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 300%;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 140%;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    border-style: hidden hidden solid hidden;
+    border-width: 1px;
+    border-color: #aaaaaa;
+}
+
+/* Job Titles */
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 2.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Info Headers */
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 120%;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 2.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Dates */
+h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 110%;
+    font-weight: normal;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Experience Headers */
+h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 120%;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p {
+    margin-top: 8%;
+    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 0%;
+    margin-bottom: 2.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* --- BODY STRUCTURE --- */
+.header {
+    background: #073763;
+    height: 75px;
+    width: 480px;
+    padding: 0px 0px 0px 20px;
+}
+
+.leftnav {
+    overflow: hidden;
+    background-color: white;
+    width: 480px;
+    padding: 0px 0px 0px 20px;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+}
+
+.row-main {
+    display: flex;
+    /* padding: 50px 0px 0px 20px; */
+    flex-wrap: flex;
+    /* position: absolute;
+    top:25%;
+    left: 20%; */
+    /* margin-left: -10px; */
+    max-width: 920px;
+    padding: 30px 0px 0px 30px;
+    background: white;
+}
+
+.footer {
+    background: #073763;
+    height: 150px;
+    width: 100%;
+    /* max-width: 900px; */
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    /* margin-top: 50px; */
+    /* width: 920px; */
+}
+
+
+/* --- LEFT SIDE --- */
+.column-left {
+    display: wrap;
+    width: 330px;
+    padding-right: 20px;
+    border-style: hidden solid hidden hidden;
+    border-width: 1px;
+    border-color: #aaaaaa;
+}
+
+.row-left {
+    display: wrap;
+    width: 315px;
+    padding: 0px;
+}
+
+
+/* --- RIGHT SIDE--- */
+.column-right {
+    display: wrap;
+    width: 530px;
+    padding: 0px 0px 0px 20px;
+}
+
+.row-right {
+    display: wrap;
+    height: 60px;
+    width: 530px;
+    padding: 0px;
+}
+
+.row-right-entry {
+    display: flex;
+    width: 530px;
+    padding: 0px;
+}
+
+.column-dates {
+    display: wrap;
+    padding: 0px;
+    padding: 0px 0px 20px 0px;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: red; */
+}
+
+.column-entry {
+    display: wrap;
+    padding: 0px 0px 20px 25px;
+}
+
+
+/* --- OTHER --- */
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns
+stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 480px) {
+    .column-left {   
+      width: 100%;
+      padding: 0;
+    }
+} */
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation
+links stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 310px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+} */
