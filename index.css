@@ -127,15 +127,6 @@ li {
     text-align: left;
 }
 
-.leftnav a {
-    color: black;
-    text-decoration: none;
-}
-
-.leftnav a:hover {
-    color: blue;
-}
-
 .container {
     text-align: center;
 }
@@ -179,6 +170,15 @@ li {
     display: wrap;
     width: 315px;
     padding: 0px;
+}
+
+.row-left a {
+    color: black;
+    text-decoration: none;
+}
+
+.row-left a:hover {
+    color: blue;
 }
 
 
