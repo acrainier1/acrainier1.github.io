@@ -5,17 +5,6 @@
     box-sizing: border-box;
 } */
 
-body {
-    background: white;
-    font-family: 'Nunito', sans-serif;
-    font-size: 100%;
-    padding: 0px;
-    max-width: 960px;
-    margin: 40px auto;
-    padding: 0px 0px 0px 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 
 /* --- FONTS --- */
 .title {
@@ -142,6 +131,17 @@ li {
 
 
 /* --- MAIN STRUCTURE --- */
+body {
+    background: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
+    padding: 0px;
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .body-container {
     display: flex;
     flex-wrap: flex;
