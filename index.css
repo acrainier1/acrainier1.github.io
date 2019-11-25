@@ -111,29 +111,39 @@ li {
 }
 
 
-/* --- BODY STRUCTURE --- */
+/* --- HEADER STRUCTURE --- */
 .header {
+    display: flex;
+    flex-wrap: flex;
     background: #073763;
     height: 75px;
     width: 480px;
     padding: 0px 0px 0px 20px;
 }
 
-.leftnav {
-    overflow: hidden;
-    background-color: white;
-    width: 480px;
-    padding: 0px 0px 0px 20px;
+.nav-row {
+    display: flex;
+    flex-wrap: flex;
+    padding: 0px 0px 0px 30px;
     text-align: left;
 }
 
-.container {
-    text-align: center;
+.nav-left {
+    display: wrap;
+    width: 330px;
+    padding-right: 20px;
 }
 
+.nav-right {
+    display: wrap;
+    width: 420px;
+    padding: 11px 0px 0px 118px;
+}
+
+
+/* --- BODY STRUCTURE --- */
 .row-main {
     display: flex;
-    /* padding: 50px 0px 0px 20px; */
     flex-wrap: flex;
     /* position: absolute;
     top:25%;
@@ -148,11 +158,8 @@ li {
     background: #073763;
     height: 150px;
     width: 100%;
-    /* max-width: 900px; */
     margin: 50px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    /* margin-top: 50px; */
-    /* width: 920px; */
 }
 
 
@@ -206,9 +213,6 @@ li {
     display: wrap;
     padding: 0px;
     padding: 0px 0px 20px 0px;
-    /* border-style: solid;
-    border-width: 1px;
-    border-color: red; */
 }
 
 .column-entry {
