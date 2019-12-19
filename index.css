@@ -1,11 +1,6 @@
 /* CSS for resume.html */
 
 
-/* * {
-    box-sizing: border-box;
-} */
-
-
 /* --- FONTS --- */
 .title {
     font-style: bold;
@@ -102,7 +97,7 @@ li {
 
 /* --- IMAGES --- */
 .icon {
-    width : 30px;
+    width : 25px;
     height: auto;/*to preserve the aspect ratio of the image*/
 }
 
