@@ -97,7 +97,7 @@ li {
 
 /* --- IMAGES --- */
 .icon {
-    width : 20px;
+    width : 18px;
     height: auto;/*to preserve the aspect ratio of the image*/
 }
 
