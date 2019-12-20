@@ -161,19 +161,19 @@ body {
     height: 150px;
     width: 80%;
     margin: 40px 0px 0px 0px;
-    font-size: 80%;
+    font-size: 50%;
     color: #cccccc;
     text-decoration: none;
 }
 
 .footer a {
-    font-size: 80%;
+    font-size: 100%;
     color: #cccccc;
     text-decoration: none;
 }
 
 .footer a:hover {
-    font-size: 80%;
+    font-size: 100%;
     color: #ffffff;
 }
 
