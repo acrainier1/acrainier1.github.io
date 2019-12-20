@@ -167,11 +167,13 @@ body {
 }
 
 .footer a {
+    font-size: 80%;
     color: #cccccc;
     text-decoration: none;
 }
 
 .footer a:hover {
+    font-size: 80%;
     color: #ffffff;
 }
 
