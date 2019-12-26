@@ -160,7 +160,8 @@ body {
     background: #073763;
     height: 150px;
     width: 100%;
-    margin: 40px 0px 0px 40px;
+    margin: 40px 0px 0px 0px;
+    padding-left: 40px;
     font-size: 80%;
     color: #cccccc;
     text-decoration: none;
