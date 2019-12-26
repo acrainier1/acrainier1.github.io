@@ -160,7 +160,7 @@ body {
     background: #073763;
     height: 150px;
     width: 100%;
-    margin: 40px 0px 0px 0px;
+    margin: 40px 0px 0px 40px;
     font-size: 80%;
     color: #cccccc;
     text-decoration: none;
@@ -238,18 +238,18 @@ body {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns
 stack on top of each other instead of next to each other */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .nav-container {   
       width: 100%;
       padding: 0;
     }
-}
+} */
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation
 links stack on top of each other instead of next to each other */
-@media screen and (max-width: 310px) {
+/* @media screen and (max-width: 310px) {
     .body-container {
       float: none;
       width: 100%;
     }
-}
+} */
