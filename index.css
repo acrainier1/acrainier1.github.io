@@ -6,7 +6,7 @@
     --bodyBgColor: #dddddd;
     --resumeColor: #ffffff;
     --themeColor: #1d63a5;
-    --highlightColor: rgb(116, 112, 134);
+    --highlightColor: rgba(116, 112, 134, 0.568);
 }
 
 /* --- FONTS --- */
