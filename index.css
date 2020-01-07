@@ -1,4 +1,6 @@
 /* CSS for resume.html */
+/* Name: Alex Canizales */
+
 :root {
     /* --bodyBgColor: #180030; */
     --bodyBgColor: #222222;
@@ -13,7 +15,7 @@
     font-size: 15;
 }
 
-/* Name: Alex Canizales */
+
 h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 300%;
