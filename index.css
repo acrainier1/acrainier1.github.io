@@ -201,7 +201,7 @@ body {
 }
 
 .row-left a:hover {
-    color: var(--highlightColor);
+    color: #0000ff;
 }
 
 
@@ -267,9 +267,9 @@ footer {
     text-decoration: none;
 }
 
-#footer-right a:hover {
+/* #footer-right a:hover {
     color: #ffffff;
-}
+} */
 
 
 /* --- OTHER --- */
