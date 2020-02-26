@@ -2,14 +2,13 @@
 /* Name: Alex Canizales */
 
 :root {
-    /* --bodyBgColor: #180030; */
     --bodyBgColor: #fafafa;
     --resumeColor: #ffffff;
     --themeColor: #1d63a5;
     --highlightColor: rgba(116, 112, 134, 0.568);
 }
 
-/* --- FONTS --- */
+/*  FONTS  */
 title {
     font-style: bold;
     font-size: 15;
@@ -103,7 +102,7 @@ li {
 }
 
 
-/* --- MAIN STRUCTURE --- */
+/*  MAIN STRUCTURE  */
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 100%;
@@ -127,7 +126,7 @@ body {
 }
 
 
-/* --- HEADER STRUCTURE --- */
+/*  HEADER STRUCTURE  */
 header {
     background-color: var(--resumeColor);
     border-radius: 8px 8px 0px 0px;
@@ -164,7 +163,7 @@ header {
 }
 
 
-/* --- LEFT SIDE --- */
+/*  LEFT SIDE  */
 .column-left {
     display: wrap;
     width: 330px;
@@ -192,14 +191,14 @@ header {
 }
 
 
-/* --- IMAGES --- */
+/*  IMAGES  */
 .icon {
     width : 18px;
     height: auto;
 }
 
 
-/* --- RIGHT SIDE--- */
+/*  RIGHT SIDE */
 .column-right {
     display: wrap;
     width: 530px;
@@ -245,7 +244,7 @@ header {
 }
 
 
-/* --- FOOTER STRUCTURE --- */
+/*  FOOTER STRUCTURE  */
 footer {
     background: var(--resumeColor);
     width: 931px;
@@ -275,7 +274,7 @@ footer {
     
     body {
         width: 100%;
-        margin: 0;
+        margin: 5px 0;
         font-size: 100%;
         border-radius: 0px;
     }
@@ -324,7 +323,7 @@ footer {
     }
 
 
-    /* --- LEFT SIDE--- */
+    /*  LEFT SIDE */
     .column-left {
         width: 100%;
         padding: 0%;
@@ -334,7 +333,7 @@ footer {
     .row-left { width: 95%; }
 
 
-    /* --- RIGHT SIDE--- */
+    /*  RIGHT SIDE */
     .column-right {
         width: 100%;
         padding: 0%;
@@ -371,7 +370,7 @@ footer {
     }
 
 
-    /* --- FOOTER --- */
+    /*  FOOTER  */
     footer { 
         width: 100%;
         border-radius: 20px;
