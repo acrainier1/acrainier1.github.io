@@ -266,6 +266,14 @@ footer {
     text-decoration: none;
 }
 
+#footer-right a:link { 
+    color: #cccccc;
+}
+
+#footer-right a:visited { 
+    color: #cccccc;
+}
+
 
 
 /* RESPONSIVE LAYOUT MOBILE  */
