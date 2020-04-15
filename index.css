@@ -52,6 +52,10 @@ h3 {
     font-style: italic;
 }
 
+h3 a {
+    text-decoration: underline;
+}
+
 /* Info Headers */
 h4 {
     margin-top: 0%;
@@ -266,7 +270,8 @@ header {
 /*  COLLAPSIBLE SECTIONS  */
 .collapsible-button {
     width: 100%;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 8px;
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 5px;
