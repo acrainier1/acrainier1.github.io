@@ -161,6 +161,24 @@ header {
     background: var(--resumeColor);
 }
 
+#portrait-primary {
+    display: block;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+#portrait-secondary {
+    display: block;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
 
 /*  LEFT SIDE  */
 .column-left {
