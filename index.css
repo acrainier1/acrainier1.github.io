@@ -254,17 +254,16 @@ header {
 }
 
 .column-entry a {
-    color: #000000;
+    color: #000;
     text-decoration: none;
 }
 
 .column-entry a:hover {
-    color: #0000ff;
+    color: #00f;
 }
 
 .collapsible-button {
-    background-color: #777;
-    color: white;
+    color: #000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -280,7 +279,7 @@ header {
 
 .collapsible-button:after {
     content: '\002B';
-    color: white;
+    color: #fff;
     font-weight: bold;
     float: right;
     margin-left: 5px;
