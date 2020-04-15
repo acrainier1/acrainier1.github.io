@@ -301,8 +301,8 @@ header {
 
 .collapsible-content {
     width: 100%;
-    margin: 0 auto;
-    padding: 0 18px;
+    /* margin: 0 auto; */
+    padding: 0 10px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -442,12 +442,6 @@ footer {
     li {
         margin-left: 3%;
     }
-
-
-    /*  COLLAPSIBLE SECTIONS  */
-    /* .collapsible-button:hover {
-        background-color: #fff;
-    } */
 
 
     /*  FOOTER  */
