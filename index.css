@@ -163,20 +163,22 @@ header {
 
 #portrait-primary {
     display: block;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: auto;
     margin: 0 auto;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 5px;
+    box-shadow: 4px 4px 4px #aaaaaa;
 }
 
 #portrait-secondary {
-    display: block;
-    width: 300px;
-    height: 400px;
+    display: none;
+    width: 250px;
+    height: auto;
     margin: 0 auto;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 5px;
+    box-shadow: 4px 4px 4px #aaaaaa;
 }
 
 
