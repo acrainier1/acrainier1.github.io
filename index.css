@@ -133,7 +133,7 @@ header {
 
 #header-top {
     width: 460px;
-    height: 100px;
+    height: 80px;
     padding: 10px 0px 10px 30px;
     background-color: var(--themeColor);
     border-radius: 5px 0px 5px 0px;
@@ -240,6 +240,42 @@ header {
 
 .column-entry a:hover {
     color: #0000ff;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
 }
 
 
