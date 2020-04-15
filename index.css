@@ -275,7 +275,7 @@ header {
     font-size: 100%;
     text-align: left;
     cursor: pointer;
-    /* outline: none; */
+    outline: none;
 }
 
 .active {
