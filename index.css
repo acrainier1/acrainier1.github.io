@@ -266,7 +266,7 @@ header {
 /*  COLLAPSIBLE SECTIONS  */
 .collapsible-button {
     width: 100%;
-    padding: 18px;
+    padding: 5px;
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 5px;
@@ -441,6 +441,12 @@ footer {
 
     li {
         margin-left: 3%;
+    }
+
+
+    /*  COLLAPSIBLE SECTIONS  */
+    .collapsible-button:hover {
+        background-color: #fff;
     }
 
 
