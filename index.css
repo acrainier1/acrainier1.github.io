@@ -296,6 +296,8 @@ header {
 }
 
 .collapsible-content {
+    width: 100%;
+    margin: 0 auto;
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
@@ -424,7 +426,7 @@ footer {
 
     .column-dates-mobile {
         display: block;
-        width: 50%;
+        width: 100%;
     }
 
     .column-entry {
