@@ -262,13 +262,16 @@ header {
     color: #00f;
 }
 
+
+/*  COLLAPSIBLE SECTIONS  */
 .collapsible-button {
     width: 100%;
     padding: 18px;
     background-color: #fff;
     border: none;
     color: #000;
-    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 100%;
     text-align: left;
     cursor: pointer;
     /* outline: none; */
