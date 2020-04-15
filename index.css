@@ -262,7 +262,7 @@ header {
     color: #0000ff;
 }
 
-.collapsible {
+.collapsible-button {
     background-color: #777;
     color: white;
     cursor: pointer;
@@ -274,11 +274,11 @@ header {
     font-size: 15px;
 }
 
-.active, .collapsible:hover {
+.active, .collapsible-button:hover {
     background-color: #555;
 }
 
-.collapsible:after {
+.collapsible-button:after {
     content: '\002B';
     color: white;
     font-weight: bold;
@@ -290,7 +290,7 @@ header {
     content: "\2212";
 }
 
-.content {
+.collapsible-content {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
