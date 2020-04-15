@@ -268,7 +268,8 @@ header {
     width: 100%;
     padding: 18px;
     background-color: #fff;
-    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
     color: #000;
     font-family: 'Nunito', sans-serif;
     font-size: 100%;
