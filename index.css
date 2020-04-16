@@ -52,10 +52,6 @@ h3 {
     font-style: italic;
 }
 
-h3 a {
-    text-decoration: underline;
-}
-
 /* Info Headers */
 h4 {
     margin-top: 0%;
@@ -90,6 +86,11 @@ h6 {
     font-size: 120%;
 }
 
+a {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: underline;
+}
+
 p {
     margin-top: 8%;
     margin-bottom: 0%;
@@ -106,7 +107,7 @@ li {
 }
 
 
-/*  MAIN STRUCTURE  */
+/*  BODY STRUCTURE  */
 body {
     width: 960px;
     margin: 10px auto;
@@ -259,7 +260,7 @@ header {
 
 .column-entry a {
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .column-entry a:hover {
@@ -284,11 +285,11 @@ header {
 }
 
 .active {
-    background-color: #555;
+    background-color: #999;
 }
 
 .collapsible-button:hover {
-    background-color: #555;
+    background-color: #999;
 }
 
 .collapsible-button:after {
