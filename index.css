@@ -173,7 +173,7 @@ header {
     margin: 0 auto;
     border: 1px solid #000000;
     border-radius: 5px;
-    box-shadow: 4px 4px 4px #aaaaaa;
+    box-shadow: 4px 4px 4px #aaa;
 }
 
 #portrait-secondary {
@@ -181,9 +181,9 @@ header {
     width: 250px;
     height: auto;
     margin: 0 auto;
-    border: 1px solid #000000;
+    border: 1px solid #000;
     border-radius: 5px;
-    box-shadow: 4px 4px 4px #aaaaaa;
+    box-shadow: 4px 4px 4px #aaa;
 }
 
 
@@ -285,11 +285,11 @@ header {
 }
 
 .active {
-    background-color: #999;
+    background-color: #bbb;
 }
 
 .collapsible-button:hover {
-    background-color: #999;
+    background-color: #bbb;
 }
 
 .collapsible-button:after {
