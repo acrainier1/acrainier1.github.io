@@ -201,7 +201,7 @@ header {
 }
 
 .smileys {
-    margin: 5px 0 0 4px;
+    margin: 5px 0 0 9px;
 }
 
 .switch {
@@ -227,8 +227,8 @@ header {
     right: 0;
     bottom: 0;
     background-color: rgba(255,255,255,.0);
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .2s;
+    transition: .2s;
 }
 
 .slider:before {
@@ -240,8 +240,8 @@ header {
     width: 28px;
     background-color: #999;
     border-radius: 4px;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .2s;
+    transition: .2s;
 }
 
 #toggler:checked + .slider {
