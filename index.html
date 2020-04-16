@@ -220,7 +220,8 @@
                         I used to design tise website.
                     </li>
 
-                    <button class="collapsible-button">
+                    <button class="collapsible-button" 
+                            ontouchend="this.onclick=hoverFix">
                         Desktop Site: Browser Compatibility
                     </button>
                     <div class="collapsible-content">
@@ -231,7 +232,8 @@
                         <li>- Key pieces of code are polyfilled for pre-ES6 backwards compatibility</li>
                     </div>
 
-                    <button class="collapsible-button">
+                    <button class="collapsible-button"
+                            ontouchend="this.onclick=hoverFix">
                         Mobile Site: Responsive Design
                     </button>
                     <div class="collapsible-content">
@@ -243,7 +245,8 @@
                         <li>- Click on the 三 hamburger menu to view the side navbar</li>
                     </div>
 
-                    <button class="collapsible-button">
+                    <button class="collapsible-button"
+                            ontouchend="this.onclick=hoverFix">
                         Kanji Search: Data Structures & SQL
                     </button>
                     <div class="collapsible-content">
@@ -260,7 +263,8 @@
                         </li>
                     </div>
 
-                    <button class="collapsible-button">
+                    <button class="collapsible-button"
+                            ontouchend="this.onclick=hoverFix">
                         Flashcards: React Web App Design
                     </button>
                     <div class="collapsible-content">
@@ -272,7 +276,8 @@
                         <li>- The swipe feature....</li>
                     </div>
 
-                    <button class="collapsible-button">
+                    <button class="collapsible-button"
+                            ontouchend="this.onclick=hoverFix">
                         About: Error Handling & Testing
                     </button>
                     <div class="collapsible-content">
@@ -476,6 +481,15 @@
             }
         });
     }
+
+    function hoverFix() {
+        var el = this;
+        var par = el.parentNode;
+        var next = el.nextSibling;
+        par.removeChild(el);
+        setTimeout(function() {par.insertBefore(el, next);}, 0)
+    }
+
 </script>
 </body>
 </html>
