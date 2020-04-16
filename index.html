@@ -468,8 +468,7 @@
 
 <script>
     function switchPortrait() {
-        let isChecked = document.getElementById("toggler").checked;
-        if (isChecked) {
+        if (document.getElementById("toggler").checked) {
             setTimeout(
                 function() { document.getElementById("portrait").src = "alexSuitCropped.jpg"; },
                 200

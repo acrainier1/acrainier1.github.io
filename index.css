@@ -178,17 +178,6 @@ header {
     box-shadow: 4px 4px 4px #aaa;
 }
 
-#portrait-secondary {
-    display: none;
-    width: 250px;
-    height: auto;
-    margin: 0 auto;
-    border: 1px solid #999;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px #aaa;
-}
-
-
 .shave-beard {
     display: flex;
     flex-wrap: wrap;
