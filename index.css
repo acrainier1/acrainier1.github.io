@@ -173,7 +173,7 @@ header {
     width: 250px;
     height: auto;
     margin: 0 auto;
-    border: 1px solid #000000;
+    border: 1px solid #999;
     border-radius: 5px;
     box-shadow: 4px 4px 4px #aaa;
 }
@@ -183,7 +183,7 @@ header {
     width: 250px;
     height: auto;
     margin: 0 auto;
-    border: 1px solid #000;
+    border: 1px solid #999;
     border-radius: 5px;
     box-shadow: 4px 4px 4px #aaa;
 }
@@ -209,7 +209,7 @@ header {
     display: inline-block;
     width: 62px;
     height: 34px;
-    border: 1px solid #000;
+    border: 1px solid #999;
     border-radius: 5px;
   }
 
@@ -238,7 +238,6 @@ header {
     width: 28px;
     left: 4px;
     bottom: 4px;
-    background-color: #bbb;
     border-radius: 4px;
     -webkit-transition: .4s;
     transition: .4s;
