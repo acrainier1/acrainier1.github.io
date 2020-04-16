@@ -21,7 +21,7 @@
             <div id="header-bottom-left">
                 <h1>Alex Canizales</h1>
                 <h3>Web Developer</h3>
-                <img id='portrait-primary' src='alexSuitCropped.jpg' alt='Alex with suit' >
+                <img id='portrait' src='alexSuitCropped.jpg' alt='portrait photo' >
                 <img id='portrait-secondary' src='alexBeardCropped.jpg' alt='Alex with beard' >
 
                 <div class="shave-beard">
@@ -31,7 +31,7 @@
                     </div>
                     <label class="switch">
                         <div class="smileys">: ▓ &nbsp;&nbsp; : )</div>
-                        <input type="checkbox">
+                        <input id="toggler" type="checkbox" checked onclick="switchPortrait()">
                         <span class="slider"></span>
                     </label>
                 </div>
@@ -194,7 +194,6 @@
             <div class="row-right-entry">
                 <div class="column-dates-desktop">
                     <h5>Present</h5>
-                    <h5>2019.12</h5>
                 </div>
                 <div class="column-dates-mobile">
                     <h5>2019.12 &nbsp; &mdash; &nbsp; Present</h5>
@@ -468,6 +467,15 @@
 </main>
 
 <script>
+    function switchPortrait() {
+        let isChecked = document.getElementById("toggler").checked;
+        if (isChecked) {
+            document.getElementById("portrait").src = "alexSuitCropped.jpg"
+        } else {
+            document.getElementById("portrait").src = "alexBeardCropped.jpg";
+        }
+    }
+
     var collapsible = document.getElementsByClassName("collapsible-button");
     // var indexCSS = document.styleSheets[0];
     for (let i=0; i < collapsible.length; i++) {

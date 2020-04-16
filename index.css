@@ -168,7 +168,7 @@ header {
 
 
 /*  PORTRAIT  */
-#portrait-primary {
+#portrait {
     display: block;
     width: 250px;
     height: auto;
@@ -244,16 +244,16 @@ header {
     transition: .4s;
 }
 
-input:checked + .slider {
-    background-color: rgba(255,255,255,.0);
+#toggler:checked + .slider {
+    background-color: rgba(255,0,0,.0);
     border-radius: 5px;
 }
 
-input:focus + .slider {
+/* input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
-}
+} */
 
-input:checked + .slider:before {
+#toggler:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
