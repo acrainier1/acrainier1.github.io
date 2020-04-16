@@ -188,22 +188,38 @@ header {
     box-shadow: 4px 4px 4px #aaa;
 }
 
+
+.shave-beard {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    margin: 20px 0 0 0;
+}
+
+.portrait-description {
+    width: 250px;
+}
+
+.smileys {
+    margin: 5px 0 0 4px;
+}
+
 .switch {
     position: relative;
     display: inline-block;
-    width: 63px;
+    width: 62px;
     height: 34px;
     border: 1px solid #000;
     border-radius: 5px;
   }
-  
-  .switch input { 
+
+.switch input { 
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  .slider {
+}
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -213,9 +229,9 @@ header {
     background-color: rgba(255,255,255,.0);
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -226,29 +242,22 @@ header {
     border-radius: 4px;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  input:checked + .slider {
-    content: ": ▓";
+}
+
+input:checked + .slider {
     background-color: rgba(255,255,255,.0);
     border-radius: 5px;
-  
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
-  
-  
-  .shave-beard {
-    margin: 7px 0 0 4px;
-  }
+}
 
 
 /*  LEFT SIDE  */
