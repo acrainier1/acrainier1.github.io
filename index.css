@@ -193,7 +193,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     height: 100px;
-    margin: 20px auto;
+    margin-top: 20px;
 }
 
 .portrait-description {
