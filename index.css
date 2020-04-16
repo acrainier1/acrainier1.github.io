@@ -238,6 +238,7 @@ header {
     width: 28px;
     left: 4px;
     bottom: 4px;
+    background-color: #bbb;
     border-radius: 4px;
     -webkit-transition: .4s;
     transition: .4s;
