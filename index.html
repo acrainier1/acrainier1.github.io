@@ -470,9 +470,15 @@
     function switchPortrait() {
         let isChecked = document.getElementById("toggler").checked;
         if (isChecked) {
-            document.getElementById("portrait").src = "alexSuitCropped.jpg"
+            setTimeout(
+                function() { document.getElementById("portrait").src = "alexSuitCropped.jpg"; },
+                200
+            );
         } else {
-            document.getElementById("portrait").src = "alexBeardCropped.jpg";
+            setTimeout(
+                function () { document.getElementById("portrait").src = "alexBeardCropped.jpg"; },
+                200
+            );
         }
     }
 
