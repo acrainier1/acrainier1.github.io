@@ -415,7 +415,7 @@ footer {
 @media screen and (max-width: 850px) {
     body {
         width: 100%;
-        margin: 0 auto;
+        margin: 0px auto;
         background: var(--resumeColor);
         border-radius: 0px;
         font-size: 100%;
