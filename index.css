@@ -518,14 +518,36 @@ footer {
     /*  FOOTER  */
     footer { 
         width: 100%;
-        height: 80px;
+        height: 50px;
         border-radius: 20px;
     }
 
     #footer-right { 
         width: 94%;
-        margin: 1% 3%;
-        padding: 0;
+        margin: 0 3%;
+        padding-left: 0;
         border-radius: 20px 0px 20px 0px;
     }
+
+    /* footer {
+        width: 931px;
+        height: 130px;
+        background: var(--resumeColor);
+        border-radius: 0px 0px 5px 5px;
+        justify-content: right;
+        align-items: right;
+        text-align: right;
+    }
+    
+    #footer-right {
+        width: 545px;
+        height: 130px;
+        margin: 0px 0px 0px 385px;
+        padding-left: 30px;
+        background: var(--themeColor);
+        border-radius: 5px 0px 5px 0px;
+        color: #cccccc;
+        font-size: 80%;
+        text-decoration: none;
+    } */
 }
