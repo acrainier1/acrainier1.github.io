@@ -4,7 +4,7 @@
 :root {
     --bodyBgColor: #fafafa;
     --resumeColor: #ffffff;
-    --themeColor: #222;
+    --themeColor: rgb(47, 170, 201);
     --highlightColor: rgba(116, 112, 134, 0.568);
 }
 
@@ -142,7 +142,7 @@ header {
     padding: 10px 0px 10px 30px;
     background-color: var(--themeColor);
     border-radius: 5px 0px 5px 0px;
-    color: #80f5f5;
+    color: #fff;
     font-size: 150%;
 }
 
@@ -408,7 +408,7 @@ footer {
 }
 
 #footer-right a:visited { 
-    color: #cccccc;
+    color: #fff;
 }
 
 
