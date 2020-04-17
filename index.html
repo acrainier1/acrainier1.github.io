@@ -218,8 +218,7 @@
                         I used to design tise website.
                     </li>
 
-                    <button class="collapsible-button" 
-                            ontouchend="this.onclick=hoverFix">
+                    <button class="collapsible-button">
                         Desktop Site: Browser Compatibility
                     </button>
                     <div class="collapsible-content">
@@ -230,8 +229,7 @@
                         <li>- Key pieces of code are polyfilled for pre-ES6 backwards compatibility</li>
                     </div>
 
-                    <button class="collapsible-button"
-                            ontouchend="this.onclick=hoverFix">
+                    <button class="collapsible-button">
                         Mobile Site: Responsive Design
                     </button>
                     <div class="collapsible-content">
@@ -243,8 +241,7 @@
                         <li>- Click on the 三 hamburger menu to view the side navbar</li>
                     </div>
 
-                    <button class="collapsible-button"
-                            ontouchend="this.onclick=hoverFix">
+                    <button class="collapsible-button">
                         Kanji Search: Data Structures & SQL
                     </button>
                     <div class="collapsible-content">
@@ -261,8 +258,7 @@
                         </li>
                     </div>
 
-                    <button class="collapsible-button"
-                            ontouchend="this.onclick=hoverFix">
+                    <button class="collapsible-button">
                         Flashcards: React Web App Design
                     </button>
                     <div class="collapsible-content">
@@ -274,8 +270,7 @@
                         <li>- The swipe feature....</li>
                     </div>
 
-                    <button class="collapsible-button"
-                            ontouchend="this.onclick=hoverFix">
+                    <button class="collapsible-button">
                         Site Info: Error Handling & Testing
                     </button>
                     <div class="collapsible-content">
@@ -288,28 +283,6 @@
                     </div>
                 </div>
             </div>
-
-                    <!--
-                        Desktop Website Overview +
-                            Browser Compatibility & Polyfills
-                            Content creation and Japanese language ability
-
-                        Mobile Website +
-                            Responsive Design with CSS flexbox layout, media queries,
-                            conditional React renders and CSS-in-JS
-
-                        Kanji Search +
-                            Data structure manipulation and displaying with React
-                            Reusable Components and Modules
-
-                        Flashcards +
-                            Interactive React web application programmed
-                            with an understanding of state in React
-
-                        About +
-                            Exceptions, Error Boundaries & Handling
-                            White-box and black-box testing 
-                    -->
 
             <div class="row-right-entry">
                 <div class="column-dates">
@@ -460,15 +433,6 @@
             }
         });
     }
-
-    function hoverFix() {
-        var el = this;
-        var par = el.parentNode;
-        var next = el.nextSibling;
-        par.removeChild(el);
-        setTimeout(function() {par.insertBefore(el, next);}, 0)
-    }
-
 </script>
 </body>
 </html>
