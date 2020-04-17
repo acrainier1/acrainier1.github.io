@@ -4,7 +4,7 @@
 :root {
     --bodyBgColor: #fafafa;
     --resumeColor: #ffffff;
-    --themeColor: rgb(47, 170, 201);
+    --themeColor: rgb(44, 154, 182);
     --highlightColor: rgba(116, 112, 134, 0.568);
 }
 
@@ -398,13 +398,13 @@ footer {
     padding-left: 30px;
     background: var(--themeColor);
     border-radius: 5px 0px 5px 0px;
-    color: #cccccc;
+    color: #fff;
     font-size: 80%;
     text-decoration: none;
 }
 
 #footer-right a:link { 
-    color: #cccccc;
+    color: #fff;
 }
 
 #footer-right a:visited { 
@@ -518,12 +518,13 @@ footer {
     /*  FOOTER  */
     footer { 
         width: 100%;
-        height: 50px;
+        height: 80px;
         border-radius: 20px;
     }
 
     #footer-right { 
         width: 94%;
+        height: 80px;
         margin: 0 3%;
         padding-left: 0;
         border-radius: 20px 0px 20px 0px;
