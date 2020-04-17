@@ -351,9 +351,9 @@ header {
     background-color: #bbb;
 }
 
-/* .collapsible-button:hover {
-    background-color: #bbb;
-} */
+.collapsible-button:hover {
+    cursor: pointer;
+}
 
 .collapsible-button:after {
     content: '\002B';
@@ -373,7 +373,7 @@ header {
     max-height: 0;
     margin: 0 auto;
     padding: 0 10px;
-    background-color: #eee;
+    background-color: #efeff0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 
