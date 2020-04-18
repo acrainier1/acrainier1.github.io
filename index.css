@@ -142,7 +142,7 @@ header {
     padding: 10px 0px 10px 30px;
     background-color: var(--themeColor);
     border: 2px solid #000;
-    border-radius: 5px 0px 5px 0px;
+    border-radius: 5px 0px;
     color: #fff;
     font-size: 150%;
 }
@@ -174,7 +174,7 @@ header {
     width: 250px;
     height: auto;
     margin: 0 auto;
-    border: 2px solid #00;
+    border: 2px solid #000;
     border-radius: 7px 0;
     box-shadow: 4px 4px 4px #aaa;
 }
@@ -394,7 +394,8 @@ footer {
     margin: 0px 0px 0px 385px;
     padding-left: 30px;
     background: var(--themeColor);
-    border-radius: 5px 0px 5px 0px;
+    border: 2px solid #000;
+    border-radius: 5px 0px;
     color: #fff;
     font-size: 80%;
     text-decoration: none;
