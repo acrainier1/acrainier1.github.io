@@ -239,10 +239,6 @@ header {
     border-radius: 5px;
 }
 
-/* input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-} */
-
 #toggler:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
@@ -338,7 +334,7 @@ header {
     padding: 8px;
     background-color: #fff;
     border: 1px solid #000;
-    border-radius: 5px;
+    border-radius: 5px 0;
     color: #000;
     font-family: 'Nunito', sans-serif;
     font-size: 100%;
