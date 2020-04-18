@@ -200,7 +200,7 @@ header {
     display: inline-block;
     width: 62px;
     height: 34px;
-    border: 1px solid #aaa;
+    border: 1px solid #000;
     border-radius: 7px 0;
   }
 
@@ -345,7 +345,7 @@ header {
 }
 
 .active {
-    background-color: #bbb;
+    background-color: var(--themeColor);
 }
 
 .collapsible-button:hover {
@@ -522,31 +522,9 @@ footer {
 
     #footer-right { 
         width: 94%;
-        height: 80px;
+        height: 76px;
         margin: 0 3%;
         padding-left: 0;
-        border-radius: 20px 0px 20px 0px;
+        border-radius: 20px 0px;
     }
-
-    /* footer {
-        width: 931px;
-        height: 130px;
-        background: var(--resumeColor);
-        border-radius: 0px 0px 5px 5px;
-        justify-content: right;
-        align-items: right;
-        text-align: right;
-    }
-    
-    #footer-right {
-        width: 545px;
-        height: 130px;
-        margin: 0px 0px 0px 385px;
-        padding-left: 30px;
-        background: var(--themeColor);
-        border-radius: 5px 0px 5px 0px;
-        color: #cccccc;
-        font-size: 80%;
-        text-decoration: none;
-    } */
 }
