@@ -91,6 +91,10 @@ a {
     text-decoration: underline;
 }
 
+a:visited { 
+    color: #000;
+}
+
 p {
     margin-top: 8%;
     margin-bottom: 0%;
@@ -389,23 +393,23 @@ footer {
 
 #footer-right {
     width: 545px;
-    height: 130px;
+    height: 128px;
     margin: 0px 0px 0px 385px;
     padding-left: 30px;
     background: var(--themeColor);
     border: 2px solid #000;
     border-radius: 5px 0px;
-    color: #fff;
+    color: #000;
     font-size: 80%;
     text-decoration: none;
 }
 
 #footer-right a:link { 
-    color: #fff;
+    color: #000;
 }
 
 #footer-right a:visited { 
-    color: #fff;
+    color: #000;
 }
 
 
