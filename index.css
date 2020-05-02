@@ -234,8 +234,8 @@ header {
 }
 
 
-/*  LEFT SIDE  */
-.column-left {
+/*  LEFT COLUMN  */
+.left-column {
     display: wrap;
     width: 330px;
     padding-right: 20px;
@@ -245,39 +245,48 @@ header {
     border-color: #aaa;
 }
 
-.row-left {
+.left-row {
     display: wrap;
     width: 325px;
     padding: 0px;
     background: var(--resumeColor);
 }
 
-.row-left a {
+.left-row a {
     color: #000000;
     text-decoration: none;
 }
 
-.row-left a:hover {
+.left-row a:hover {
     color: #0000ff;
+}
+
+.left-row-entry {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
 }
 
 
 /*  IMAGES  */
 .icon {
-    width : 18px;
-    height: auto;
+    width : 20px;
+    height: 20px;
+    margin: 20px 2px 0 0;
 }
 
 
-/*  RIGHT SIDE */
-.column-right {
+/*  RIGHT COLUMN */
+.right-column {
     display: wrap;
     width: 530px;
     padding: 0px 0px 0px 20px;
     background: var(--resumeColor);
 }
 
-.row-right {
+.right-row {
     display: wrap;
     width: 530px;
     height: 60px;
@@ -285,32 +294,32 @@ header {
     background: var(--resumeColor);
 }
 
-.row-right-entry {
+.right-row-entry {
     display: flex;
     width: 530px;
     padding: 0px;
 }
 
-.column-dates-desktop {
+.right-dates-desktop {
     display: wrap;
     padding: 0px 0px 20px 0px;
 }
 
-.column-dates-mobile {
+.right-dates-mobile {
     display: none;
 }
 
-.column-entry {
+.right-details {
     display: wrap;
     padding: 0px 0px 20px 25px;
 }
 
-.column-entry a {
+.right-details a {
     color: #000;
     text-decoration: underline;
 }
 
-.column-entry a:hover {
+.right-details a:hover {
     color: #00f;
 }
 
@@ -452,43 +461,43 @@ footer {
     }
 
 
-    /*  LEFT SIDE */
-    .column-left {
+    /*  LEFT COLUMN */
+    .left-column {
         width: 97%;
         padding: 0%;
         border-width: 0px;
     }
 
-    .row-left { width: 95%; }
+    .left-row { width: 95%; }
 
 
-    /*  RIGHT SIDE */
-    .column-right {
+    /*  RIGHT COLUMN */
+    .right-column {
         width: 97%;
         padding: 0%;
         margin-top: 30px;
     }
 
-    .row-right { width: 95%; }
+    .right-row { width: 95%; }
 
-    .row-right-entry {
+    .right-row-entry {
         display: block;
         width: 100%;
         padding: 0;
     }
 
-    .column-dates-desktop {
+    .right-dates-desktop {
         display: none;
         width: 50%;
         padding: 0px;
     }
 
-    .column-dates-mobile {
+    .right-dates-mobile {
         display: block;
         width: 100%;
     }
 
-    .column-entry {
+    .right-details {
         display: wrap;
         width: 95%;
         padding: 0 0 30px 0;
