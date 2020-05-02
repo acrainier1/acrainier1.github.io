@@ -473,7 +473,7 @@ footer {
 
     /*  LEFT SIDE */
     .column-left {
-        width: 100%;
+        width: 95%;
         padding: 0%;
         border-width: 0px;
     }
@@ -483,7 +483,7 @@ footer {
 
     /*  RIGHT SIDE */
     .column-right {
-        width: 100%;
+        width: 95%;
         padding: 0%;
         margin-top: 30px;
     }
