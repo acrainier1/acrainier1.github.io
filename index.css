@@ -149,7 +149,7 @@ header {
 
 #header-bottom-right {
     width: 350px;
-    padding: 11px 0px 0px 115px;
+    padding: 25px 0px 0px 115px;
     background: var(--resumeColor);
 }
 
@@ -323,6 +323,10 @@ header {
     color: #00f;
 }
 
+.techstack-li {
+    padding-right: 35px;
+}
+
 
 /*  COLLAPSIBLE SECTIONS  */
 .collapsible-button {
@@ -387,7 +391,7 @@ footer {
     width: 545px;
     height: 128px;
     margin: 0px 0px 0px 385px;
-    padding-left: 30px;
+    padding: 0 0 30px 30px;
     background: var(--themeColor);
     border: 2px solid #000;
     border-radius: 5px 0px;
