@@ -11,7 +11,7 @@
 /*  FONTS  */
 title {
     font-style: bold;
-    font-size: 15;
+    font-size: 15px;
 }
 
 
@@ -70,6 +70,7 @@ h6 {
 
 p {
     margin: 0;
+    font-size: 14px;
 }
 
 ul {
