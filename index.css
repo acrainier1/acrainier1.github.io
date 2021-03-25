@@ -327,8 +327,13 @@ header {
     color: #00f;
 }
 
-.techstack-li {
-    margin-right: 35px;
+.right-details ul li ul {
+    margin: 10px 0 0 0;
+}
+
+.right-details ul li ul li {
+    margin: 0 0 2.5% 35px;
+    list-style-type: circle;
 }
 
 
