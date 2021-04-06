@@ -369,7 +369,7 @@ header {
     border: 0;
     border-radius: 5px 5px 0 0;
     border-bottom: 1px solid #AAA;
-    padding: 0 5px;
+    padding: 0 4px;
     color: #000000;
     font-family: 'Nunito', sans-serif;
     font-size: 140%;
@@ -378,6 +378,11 @@ header {
 
 .left-column .active {
     background-color: #EEE;
+}
+
+.left-column .active:after {
+    content: "\2212";
+    color: #000;
 }
 
 .collapsible-button:hover {
@@ -407,6 +412,13 @@ header {
     background-color: #fff;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.left-column .collapsible-content {
+    margin: 0;
+    width: 100%;
+    padding-left: 7px;
+    /* border: 1px solid black; */
 }
 
 
