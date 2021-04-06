@@ -25,9 +25,7 @@ h1 {
 /* Section Headings */
 h2 {
     margin: 0;
-    border-style: hidden hidden solid hidden;
-    border-width: 1px;
-    border-color: #aaaaaa;
+    border-bottom: 1px solid #AAA;
     color: #000000;
     font-family: 'Nunito', sans-serif;
     font-size: 140%;
@@ -357,8 +355,25 @@ header {
     outline: none;
 }
 
+
 .active {
     background-color: var(--themeColor);
+}
+
+.left-column .collapsible-button {
+    margin-bottom: 5%;
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #AAA;
+    padding: 0 5px;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.left-column .active {
+    background-color: #EEE;
 }
 
 .collapsible-button:hover {
@@ -366,11 +381,13 @@ header {
 }
 
 .collapsible-button:after {
-    content: '\002B';
-    color: #000;
-    font-weight: bold;
+    /* position: absolute; */
     float: right;
     margin-left: 5px;
+    color: #000;
+    font-weight: bold;
+    content: '\002B';
+    
 }
 
 .active:after {
