@@ -330,6 +330,7 @@ header {
     color: #00f;
 }
 
+.right-job-summary,
 .right-details ul li ul {
     margin: 10px 0 0 0;
     border-radius: 5px;
