@@ -253,10 +253,12 @@ header {
 }
 
 .left-row {
-    display: wrap;
+    margin-bottom: 25px;
     width: 325px;
     padding: 0px;
     background: var(--resumeColor);
+    display: wrap;
+    /* border: .5px solid red; */
 }
 
 .left-row a {
@@ -523,8 +525,9 @@ footer {
         border-width: 0px;
     }
 
-    .left-row { width: 95%; }
-
+    .left-row {
+        width: 95%;
+    }
 
     /*  RIGHT COLUMN */
     .right-column {
