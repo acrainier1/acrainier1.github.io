@@ -162,11 +162,11 @@ header {
 }
 
 /*  PORTRAIT  */
-#portrait {
+.portrait {
     display: block;
     width: 120px;
     height: auto;
-    margin: 20px 0 0 5px;
+    margin: 20px 0 25px 4px;
     border: 2px solid #000;
     border-radius: 7px 0;
     box-shadow: 4px 4px 4px #aaa;
