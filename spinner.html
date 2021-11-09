@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="spinner.css">
+    <title>requestAnimationFrame spinner example</title>
+  </head>
+  <body>
+    <div>↻</div>
+    <script>
+      const spinner = document.querySelector('div');
+      let rotateCount = 0;
+      let startTiime = null;
+      let rAF;
+      
+      function draw(timestamp) {
+        if(!startTime) {
+         startTime = timestamp;
+        }
+
+        rotateCount = (timestamp - startTime) / 3;
+
+        // If rotateCount gets over 359, set it to 'remainder of dividing by 360'
+        if(rotateCount > 359) {
+          rotateCount %= 360;
+        }
+
+        // Set the rotation of the div to be equal to rotateCount degrees
+        spinner.style.transform = `rotate(${rotateCount}deg)`;
+
+        // Call the next frame in the animation
+        rAF = requestAnimationFrame(draw);
+      }
+
+      draw();
+    </script>
+  </body>
+</html>
